@@ -48,7 +48,7 @@ alist
 | akfusektv | 中文 | 安卓 | 永久Pro 99 | 只有99的永久Pro才支持tv端的使用 |
 | noveplayer | 中文 | 安卓 | 免费 | 支持本地文件刮削，虽然是手机app，但在tv端上支持遥控器操控 |
 | iPlayX | 中文 | 安卓 | 免费 | 仅支持alist，onedrive，189，webdav，emby，jf，支持配置内容通过webdav备份恢复 |
-| femor | 中文 | 安卓 | 免费 | 仅支持emby，不带刮削功能 |
+| femor | 中文 | 安卓 | 免费 | 仅支持emby和jf，支持配置内容通过webdav备份恢复 |
 | 网易爆米花 | 中文 | 安卓/iOS | 免费 | 支持主流网盘和文件传输协议，自带刮削功能 |
 
 
