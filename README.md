@@ -11,7 +11,7 @@
 | 安卓手机+安卓TV<br>iOS+AppleTV<br>多持用户<br>(服务端为amd64) | 同上，使用JF作为服务端的安卓TV用户目前只有AkfuseKtV可选，要是还需要硬件转码，那只能忍受jellyfin-tv版 |
 | arm-nas<br>非RK3588玩家 | 服务端不需要色彩映射，视频规格不大，能让cpu硬件转码的随便选，要是不能，只能把服务端当海报墙来用，用客户端解码 |
 | arm-nas<br>RK3588玩家 | 唯一真神：[nyanmisaka大佬的JF](https://www.bilibili.com/opus/877158860174917640)，其实官方JF已经并入ny大佬的代码了<br>如果需要硬件转码+色彩映射，只能选rk3588这个cpu且使用JF，至于客户端上安卓和iOS用户随便选，安卓TV用户目前只有AkfuseKtV可选 |
-| 原盘党 | 由于本人非原盘党，存在知识盲区,ISO原盘文件直接蓝光机吧，BDMV文件夹可以考虑用先用MP进行刮削整理，然后使用EMBY/JF作为服务端，接着客户端随便选 |
+| 原盘党 | 由于本人非原盘党，存在知识盲区，ISO原盘文件直接蓝光机吧，BDMV文件夹可以考虑用先用MP进行刮削整理，然后使用EMBY/JF作为服务端，接着客户端随便选 |
 | 网盘党 | 由于也不是网盘党，所以不太熟悉，但是知道一点：注意风控。可以考虑搞[strm](https://www.tefuir0829.cn/index.php/archives/98)，推荐搞[alist](https://alistgo.com/zh)/[clouddrive2](https://www.clouddrive2.com/features.html)，alist支持[302重定向](https://alist.nn.ci/zh/guide/drivers/common.html#webdav-策略)，或者[clouddrive2+strm](https://github.com/shenxianmq/Auto_Symlink/wiki) |
 | 网盘党<br>不搞NAS | 只要app支持对百度云/阿里网盘/webdav的网盘访问均可选择 |
 - 注释：如果需要硬件转码，仅官方APP支持，任何第三方APP均不支持硬件转码，是客户端解码，具体有什么区别，见最下方内容，网盘党就不用考虑硬件转码了，还更加播放不流畅
@@ -34,22 +34,24 @@ alist
 | plex | 非全中文 | 安卓/安卓TV/iOS | 每年黑五$89<br>常价$119 | 既有客户端也有服务端，服务端已购买则客户端不需要购买<br>安卓手机和TV均为同一个apk，自动适配 |
 | emby | 非全中文 | 安卓/安卓TV/iOS | 每年黑五$89<br>常价$119 | 既有客户端也有服务端，服务端已购买则客户端不需要购买<br>有emby小秘开心版，但是服务端也必须开心版(amilys/embyserver) |
 | emby-tv | 非全中文 | 安卓/安卓TV | 每年黑五$89<br>常价$119 | 同上，其实比较推荐直接用手机app，因为也适配电视ui<br>但是相对性能要求高，性能不足可以选择tv端，比jf-tv端好用 |
-| jellyfin | 非全中文 | 安卓/安卓TV/iOS | 免费 | 手机客户端是网页套壳，iOS比安卓手机端还要垃圾 |
+| jellyfin | 非全中文 | 安卓/iOS | 免费 | 手机客户端是网页套壳，iOS比安卓手机端还要垃圾 |
 | jellyfin-tv | 非全中文 | 安卓/安卓TV | 免费 | 海报墙之间的间隔很窄，没有选中高亮显示<br>兼容性不行，播放会闪退，体验很差 |
 | ———— | ———— | ———— | ———— | ———————— |
 | infuse | 中文 | iOS/Mac/AppleTV | 半免费<br>国区买断698<br>(美区买断$99) | 无敌，就是太贵了，因为给杜比视界交钱了<br>自带刮削功能，支持plex和emby的片头跳过 |
-| vidhub | 中文 | iOS/Mac/AppleTV/安卓 | 半免费<br>国区终身89<br>年费38<br>月费12 | 有过黑历史，自带刮削功能，支持emby的片头跳过<br>比infuse便宜，算是一个不错的选择 |
-| fileball | 中文 | iOS/Mac/AppleTV | 国区68 | 好久不更新了，还不如免费，血亏 |
-| senplayer | 中文 | iOS/Mac/AppleTV | 免费 | 免费啥自行车，个人认为免费中最好的选择 |
+| agc player | 中文 | iOS/Mac/AppleTV/安卓 | 半免费<br>国区买断119港币<br>iOS国区98 | 新晋app，皮肤很infuse，自带刮削功能，支持多个平台，支持WebDav同步 |
+| vidhub | 中文 | iOS/Mac/AppleTV/安卓 | 半免费<br>国区终身89<br>年费38<br>月费12 | 有过本地播放无法播放杜比视频但挂emby库却可以的的黑历史，自带刮削功能，支持emby的片头跳过<br>比infuse便宜，算是一个不错的选择 |
+| fileball | 中文 | iOS/Mac/AppleTV | 国区68 | 一般，还不如免费，血亏 |
+| senplayer | 中文 | iOS/Mac/AppleTV | 免费 | 免费要啥自行车，个人认为iOS免费中最好的选择 |
 | hamhub | 中文 | iOS/Mac/AppleTV | 半免费<br>国区终身68<br>年费36<br>月费6 | 自带刮削功能，支持百度云/阿里网盘/PEJ/smb/webdav|
 | ———— | ———— | ———— | ———— | ———————— |
-| yamby | 中文 | 安卓 | 谷歌play 99<br>但被下架了<br>现在无法购买 | 支持EMBY和JF服务端 |
+| yamby | 中文 | 安卓 | 谷歌play 99港币<br>但被下架了<br>现在无法购买<br>2025-01-20：作者直接免费了，安卓首选 | 支持EMBY和JF服务端，支持emby的片头跳过<br>不支持本地/webdav/smb等其他方式，没适配TV端，不然很强 |
 | akfusekt | 中文 | 安卓 | 半免费<br>永久Pro99<br>永久74<br>年费48<br>月费10 | 支持PEJ服务端/alist/本地存储/smb/webdav/onedrive/阿里网盘 |
-| akfusektv | 中文 | 安卓 | 永久Pro 99 | 只有99的永久Pro才支持tv端的使用 |
+| akfusektv | 中文 | 安卓 | 永久Pro 99 | 只有付费99的永久Pro才支持tv端的使用 |
 | noveplayer | 中文 | 安卓 | 免费 | 支持本地文件刮削，虽然是手机app，但在tv端上支持遥控器操控 |
-| iPlayX | 中文 | 安卓 | 免费 | 仅支持alist，onedrive，189，webdav，emby，jf，支持配置内容通过webdav备份恢复 |
-| femor | 中文 | 安卓 | 免费 | 仅支持emby和jf，支持配置内容通过webdav备份恢复 |
-| 网易爆米花 | 中文 | 安卓/iOS | 免费 | 支持主流网盘和文件传输协议，自带刮削功能 |
+| iplay | 中文 | 安卓 | 免费 | 一般，仅支持alist，onedrive，189，webdav，emby，jf，支持配置内容通过webdav备份恢复 |
+| femor | 中文 | 安卓 | 免费 | 一般，仅支持emby和jf，支持配置内容通过webdav备份恢复 |
+| hills | 中文 | 安卓 | 半免费<br>谷歌play 58港币 | 一般，感觉就是yamby下位替代品，但是现在yamby免费了，不值得 |
+| 网易爆米花 | 中文 | iOS/Mac/AppleTV/安卓/安卓TV | 免费 | 支持主流网盘和文件传输协议，自带刮削功能，已支持emby媒体库 |
 
 
 # 硬件转码
