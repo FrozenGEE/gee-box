@@ -8,9 +8,9 @@
 | 安卓TV 用户 | 服务端：emby/jf均可<br>客户端：emby手机app支持安装在电视上使用，但是可能会出现性能不足带不动app，可以选择emby tv版<br>jellfyin作为服务端的建议安装AkfuseKtV |
 | iOS+AppleTV 用户 | 服务端：emby/jf均可<br>客户端：免费收费均可，还能支持AppleTV，安卓用户表示羡慕死了，选择真多，既可以添加媒体服务器又可以添加各种网络协议，还可以安装在手机和电视上 |
 | 安卓手机+iOS 双持用户 | 服务端：随便挑<br>客户端：需要硬件转码就只能官方客户端，不需要就任何一个称手的客户端均可 |
-| 安卓手机+安卓TV<br>iOS+AppleTV<br>多持用户<br>(服务端为amd64) | 同上，使用JF作为服务端的安卓TV用户目前只有AkfuseKtV可选，要是还需要硬件转码，那只能忍受jellyfin-tv版 |
+| 安卓手机+安卓TV<br>iOS+AppleTV<br>多持用户<br>(服务端为amd64) | 同上，使用JF作为服务端的安卓TV用户有AkfuseKtV，agcplayer可选，要是还需要硬件转码，那只能忍受jellyfin-tv版 |
 | arm-nas<br>非RK3588玩家 | 如果不需要杜比hdr色彩映射，视频规格不大，能让cpu硬件转码的随便选；要是不能，只能把服务端当海报墙来用，让客户端解码，客户端挑一个称手的客户端均可 |
-| arm-nas<br>RK3588玩家 | 唯一真神：[nyanmisaka大佬的JF](https://www.bilibili.com/opus/877158860174917640)，其实官方JF已经并入ny大佬的代码了<br>如果需要硬件转码+色彩映射，只能选rk3588这个cpu且使用JF，至于客户端上安卓和iOS用户随便选，安卓TV用户目前只有AkfuseKtV可选 |
+| arm-nas<br>RK3588玩家 | 唯一真神：[nyanmisaka大佬的JF](https://www.bilibili.com/opus/877158860174917640)，其实官方JF已经并入ny大佬的代码了<br>如果需要硬件转码+色彩映射，只能选rk3588这个cpu且使用JF，至于客户端上安卓和iOS用户随便选，安卓TV用户有AkfuseKtV，agcplayer可选 |
 | 原盘党 | 由于本人非原盘党，存在知识盲区，ISO原盘文件直接蓝光机吧，BDMV文件夹可以考虑用先用MP进行刮削整理，然后使用EMBY/JF作为服务端，接着客户端随便选 |
 | 网盘党 | 由于也不是网盘党，所以不太熟悉，但是知道一点：注意风控。可以考虑搞[strm](https://www.tefuir0829.cn/index.php/archives/98)，推荐搞[alist](https://alistgo.com/zh)/[clouddrive2](https://www.clouddrive2.com/features.html)，alist支持[302重定向](https://alist.nn.ci/zh/guide/drivers/common.html#webdav-策略)，或者[clouddrive2+strm](https://github.com/shenxianmq/Auto_Symlink/wiki) |
 | 网盘党<br>不搞NAS | 只要app支持对百度云/阿里网盘/webdav的网盘访问均可选择 |
