@@ -39,7 +39,7 @@ alist
 | ———— | ———— | ———— | ———— | ———————— |
 | infuse | 中文 | iOS/Mac/AppleTV | 半免费<br>国区买断698<br>(美区买断$99) | 无敌，就是太贵了，因为给杜比视界交钱了<br>自带刮削功能，支持plex和emby的片头跳过 |
 | agc player | 中文 | iOS/Mac/AppleTV/安卓/安卓TV | 半免费<br>国区买断119港币<br>iOS国区98 | 新晋app，皮肤很infuse，自带刮削功能，支持多个平台，支持WebDav同步 |
-| vidhub | 中文 | iOS/Mac/AppleTV/安卓/安卓TV | 半免费<br>国区终身89<br>年费38<br>月费12 | 有过本地播放无法播放杜比视频但挂emby库却可以的的黑历史，自带刮削功能，支持emby的片头跳过<br>比infuse便宜，算是一个不错的选择 |
+| vidhub | 中文 | iOS/Mac/AppleTV/安卓/安卓TV | 半免费<br>国区终身89<br>年费38<br>月费12 | 有过本地播放无法播放杜比视频但挂emby库却可以的的黑历史，自带刮削功能，支持emby的片头跳过<br>比infuse便宜，算是一个不错的选择<br>也支持添加PLEX和飞牛媒体库 |
 | fileball | 中文 | iOS/Mac/AppleTV | 国区68 | 一般，还不如免费，血亏 |
 | senplayer | 中文 | iOS/Mac/AppleTV | 免费 | 免费要啥自行车，个人认为iOS免费中最好的选择 |
 | hamhub | 中文 | iOS/Mac/AppleTV | 半免费<br>国区终身68<br>年费36<br>月费6 | 自带刮削功能，支持百度云/阿里网盘/PEJ/smb/webdav|
